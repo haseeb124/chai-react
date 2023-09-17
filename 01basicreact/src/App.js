@@ -1,9 +1,20 @@
 
+import {useState} from 'react'
+
+
 
 
 function App() {
+
+  const [color, setColor] = useState("olive")
+
   return (
-    <h1>Chai aur code | basicreact</h1>
+    
+      <div className=' w-full h-screen duration-200'
+        style={{backgroundColor: color}}
+      ></div>
+
+   
   );
 }
 
