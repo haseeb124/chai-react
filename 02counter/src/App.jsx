@@ -17,6 +17,12 @@ function App() {
   const removeValue = () => {
     if(counter > 0) {
       setCounter(counter - 1)
+      // if want to add values with prev state counter
+
+      //setCounter((prevCounter) => prevCounter + 1)
+      //setCounter((prevCounter) => prevCounter + 1)
+      //setCounter((prevCounter) => prevCounter + 1)
+      //setCounter((prevCounter) => prevCounter + 1)
     }
   }
 
