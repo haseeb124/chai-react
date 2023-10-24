@@ -50,6 +50,7 @@ const Signup = () => {
                     <div className='space-y-5'>
                         <Input
                         label="Full Name: "
+                        
                         placeholder="Enter your full name"
                         {...register("name", {
                             required: true,
